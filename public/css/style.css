@@ -22,3 +22,8 @@ button:hover {
   background-color: #fff000;
   cursor: pointer;
 }
+
+table {
+  width: 80%;
+  align-self: center;
+}
