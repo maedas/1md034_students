@@ -10,12 +10,15 @@ body {
 }
 
 #burgers {
+  border: 2px dotted;
   background-color: #000000;
   color: #ffffff;
+  padding: 1rem;
 }
 
 #information {
-
+border: 2px dotted;
+padding: 1rem;
 }
 
 button:hover {
