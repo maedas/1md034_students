@@ -27,3 +27,11 @@ table {
   width: 80%;
   align-self: center;
 }
+
+section {
+  margin: 1rem;
+}
+
+button {
+  marigin: 2rem;
+}
