@@ -9,6 +9,12 @@ body {
 
 }
 
+#wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 33% 33% 33%;
+}
+
 #burgers {
   border: 2px dotted;
   background-color: #000000;
