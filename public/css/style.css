@@ -15,5 +15,10 @@ body {
 }
 
 #information {
-  
+
+}
+
+button:hover {
+  background-color: #fff000;
+  cursor: pointer;
 }
