@@ -31,6 +31,14 @@ table {
   align-self: center;
 }
 
+header {
+  margin: 1rem;
+}
+
+header img {
+  opacity: 50%;
+}
+
 section {
   margin: 1rem;
 }
