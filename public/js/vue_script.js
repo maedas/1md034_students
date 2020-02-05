@@ -1,1 +1,7 @@
-ÿþ
+const vm = new Vue({
+  el: '#myID',
+  data: {
+    arbitraryVariableName: 'VÃ¤lj en burgare'
+  }
+})
+          
