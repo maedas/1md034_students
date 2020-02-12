@@ -1,28 +1,55 @@
 <!DOCTYPE html>
-<script src="js/js_script.js"></script>
+
 <html lang="en">
 <head>
-  <script src="js/vue_script.js"></script>
-  <script src="https://vuejs.org/js/vue.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>RawBeefBurgers</title>
   <meta charset="utf-8"/>
+  <title>RawBeefBurgers</title>
 </head>
 <body>
-  <main>
+  <main id=bodega>
     <header>
       <h1>Welcome to RawBeefBurgers</h1>
       <img src="/img/longcow.jpg" alt="Hmm" title="Long long cooooooooow" width="500">
     </header>
 
   <section>
+    <!--<div v-bind:title="arbitraryVariableName + ' ' + new Date()" id="myID">
+    {{ arbitraryVariableName }}
+  </div>-->
+  <div id="myID">
+    <input v-model="arbitraryVariableName">
+    <h1>{{arbitraryVariableName}}</h1>
+</div>
     <h1>Select your poison</h1>
     <p>Here is where you select your burger</p>
   </section>
 
 <section id="burgers">
-  <div id="wrapper">
-    <div class="title">
+
+
+
+  <div id="b0">
+    {{vb0}}
+  </div>
+
+  <div id="b1">
+    {{vb1}}
+  </div>
+
+  <div id="b2">
+    {{vb2}}
+  </div>
+
+  <div id="b3">
+    {{vb3}}
+  </div>
+
+  <div id="b4">
+    {{vb4}}
+  </div>
+
+
+  <!--  <div class="title">
       <h2>The "Original"</h2>
       <h3>Our patented magic-ingredient-burger</h3>
     </div>
@@ -78,8 +105,7 @@
             Nutrients: After a bottle of wine, sure!
         </dd>
       </dl>
-    </div>
-  </div>
+    </div> -->
 </section>
 
 <section id="information">
@@ -128,6 +154,10 @@
     <footer>
       &copy; Such Copyright, very wow.
     </footer>
+    <script src="js/js_script.js"></script>
+    <script src="https://vuejs.org/js/vue.js"></script>
+    <script src="js/vue_script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
   </body>
   </html>
